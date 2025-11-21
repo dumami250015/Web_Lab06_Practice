@@ -45,9 +45,7 @@ Validation ensures data integrity by checking input on the server before it touc
 
 2.  **Validation Check**
     * Before creating the `Student` object, the controller calls a helper method `validateStudent(code, email)`.
-    * Regex Rules:
-        ** Student Code: `[A-Z]{2}[0-9]{3,}` (2 uppercase letters + 3+ digits).
-        ** Email: `^[A-Za-z0-9+_.-]+@(.+)$` (Standard email format).
+    * Regex Rules: Student Code: `[A-Z]{2}[0-9]{3,}` (2 uppercase letters + 3+ digits). Email: `^[A-Za-z0-9+_.-]+@(.+)$` (Standard email format).
 
 3.  **Error Handling**
     * If Invalid: The method returns an error string. The controller immediately redirects back to the form (`student-form.jsp`), passing the error message in the URL (URL encoded). The database is never touched.
