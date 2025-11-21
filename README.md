@@ -1,7 +1,5 @@
 # LAB 05 HOMEWORK REPORT
 
----
-
 ## 1. Search Functionality
 
 The search feature allows users to filter the student list based on a keyword that matches either the **Student Code** or **Full Name**.
