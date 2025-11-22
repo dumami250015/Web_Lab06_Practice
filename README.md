@@ -1,39 +1,6 @@
-# LAB 05 HOMEWORK REPORT
+# LAB 06 PRACTICE REPORT
 
-This project is a web application for managing student records, built using the **Java Servlet/JSP** technology stack and following the **MVC (Model-View-Controller)** architectural pattern. It includes authentication, role-based access control (Admin vs. User), and full CRUD capabilities for student data.
-
-## 🛠️ Technology Stack
-
-* **Backend**: Java Servlets (Controllers), JDBC (Data Access)
-* **Frontend**: JSP (JavaServer Pages), JSTL (JSP Standard Tag Library), CSS
-* **Database**: MySQL
-* **Build Tool**: Maven
-* **Server**: Apache Tomcat 10.1+ (Jakarta EE)
-
-## 📂 Project Structure & Components
-
-The application is organized into standard Java web packages:
-
-* **`com.controller`**: Handles HTTP requests and controls navigation logic.
-    *
-    *
-    *
-* **`com.dao`**: Data Access Objects that interact directly with the database.
-    *
-    *
-* **`com.model`**: Java Beans representing database entities.
-    *
-    *
-* **`com.filter`**: Intercepts requests to enforce security and authentication rules.
-    *
-    *
-* **`webapp/views`**: JSP files for the user interface.
-    *
-    *
-
----
-
-## ⚙️ Application Code Flow
+## Application Code Flow
 
 ### 1. Authentication Flow (Login)
 This flow handles user identity verification and session creation.
