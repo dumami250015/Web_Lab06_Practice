@@ -15,6 +15,10 @@ This flow handles user identity verification and session creation.
   
     <img width="1302" height="629" alt="image" src="https://github.com/user-attachments/assets/7c83f9f9-e731-4d3a-83b8-47a5b5af7ea0" />
 
+    <img width="1302" height="627" alt="image" src="https://github.com/user-attachments/assets/cb95e3cf-e356-4e72-b90a-5f13c0b8dafe" />
+
+    <img width="1302" height="625" alt="image" src="https://github.com/user-attachments/assets/07a1cad4-fae3-4632-b6fc-20f467e07b0b" />
+
 ### 2. Dashboard & Role-Based Access
 This flow determines what the user sees based on their role (Admin vs. User).
 
